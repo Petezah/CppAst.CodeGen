@@ -40,8 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CppAst" Version="0.20.0" />
-    <!--<ProjectReference Include="..\..\..\CppAst\src\CppAst\CppAst.csproj" />-->
+    <ProjectReference Include="..\..\..\CppAst.NET\src\CppAst\CppAst.csproj" />
   </ItemGroup>
 
   <Target Name="PatchVersion" AfterTargets="MinVer">
